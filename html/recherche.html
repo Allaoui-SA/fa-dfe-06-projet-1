@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/jquery"></script>
+    <script type="text/javascript" src="css/script.js"></script>
+  </head>
+  <body class="recherche-bg">
+    <div class="bg-shadow"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="favoris.html">Mes favoris</a></li>
+                <li style="font-weight: 700"><a href="recherche.html">Recherche</a></li>
+            </ul>
+    
+            <form method="POST" action="">
+                <input type="text" placeholder="Rechercher des titres" name="search" id="search-content">
+                <button type="submit" id="submit-content" class="icone"><i class="fa fa-search"></i></button>
+            </form>
+        </nav>
+
+        <div class="title-content">
+            <div>
+                <h1 class="main-title">DeezWeb <span>Music Player</span></h1>
+                <p class="p-title">Écoutez facilement et gratuitement vos musiques</p>
+            </div>
+            <div class="order">
+                <p class="d-flex-icone">Trier par <img class="icone" src="images/sort.png" alt="" style="margin: 0 0 0 20px;"></p>
+                <ul class="d-flex-icone">
+                    <li><a class="album">Album</a></li>
+                    <li>-</li>
+                    <li><a class="artiste">Artiste</a></li>
+                    <li>-</li>
+                    <li><a class="titre">Titre</a></li>
+                    <li>-</li>
+                    <li><a class="pop">Popularité</a></li>
+                    <li>-</li>
+                    <li><a class="rang">Rang</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="recherche-liste">
+        <h1>Résultats</h1>
+        <div class="d-flex-icone">
+            
+        </div>
+    </main>
+  </body>
+</html>
